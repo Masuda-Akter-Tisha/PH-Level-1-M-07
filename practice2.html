@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice2.html</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .main{
+            width: 90%;
+            margin: 10px auto;
+        }
+        .container{
+            display: flex;
+            gap: 10px;
+            border: 1px solid rgb(215, 213, 213);
+            align-items: flex-start;
+        }
+        .img,.content{
+            width: 50%;
+        }
+        img{
+            width: 100%;
+            object-fit: cover;
+            vertical-align: middle;
+            border-radius: 10px;
+        }
+        .content{
+            text-align: justify;
+        }
+        @media screen and (max-width:576px) {
+            .container{
+                flex-direction: column;
+            }
+             .img,.content{
+            width: 100%;
+        }
+        .content h2,p{
+            padding: 10px;
+        }
+        .btn{
+            padding:0px 10px 10px 10px;
+        }
+        }
+    </style>
+</head>
+<body>
+  <div class="main">
+      <div class="container">
+            <div class="img">
+                <img src="./images/food1.jpg" alt="">
+            </div>
+                <div class="content">
+                    <h2>Post title will be</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil facilis nulla quod molestias sunt quisquam officia aut, quas corporis, odit modi distinctio totam expedita tenetur, assumenda Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem optio quaerat ducimus quas iusto eius ab voluptatum vitae non dolores, eaque laborum eligendi aut perferendis aliquid vero nobis? Ex esse delectus necessitatibus rerum ad harum, possimus rem. Iste repellat esse perspiciatis vel quaerat beatae doloribus, deleniti earum quos temporibus. Dolores repellendus commodi labore expedita deleniti pariatur, molestias ipsa quas itaque, aliquid atque ab laboriosam rem nostrum dolor assumenda asperiores totam quibusdam porro? Consequuntur a distinctio voluptatem quod quisquam est harum sequi eum unde error sed provident iure quo mollitia ad, neque, sunt doloremque minus eius ullam laudantium consequatur incidunt. Vero cumque aliquam tenetur molestias. Repellat sequi, molestiae ad vel suscipit obcaecati nisi molestias sit incidunt omnis voluptate corrupti eius voluptatibus fugit quas alias ducimus totam labore, deleniti corporis neque repudiandae. Numquam perspiciatis et modi dolore dolorum asperiores nesciunt culpa pariatur non id laborum sapiente ex dolorem obcaecati labore, magni saepe soluta autem animi ipsum cumque cum dicta possimus. Explicabo ea iusto modi libero sequi facilis animi totam? Molestiae nobis assumenda, iusto sit repellat veniam incidunt eligendi esse odit tempore, maiores eius beatae ipsam asperiores iure ipsa in inventore sunt omnis perferendis voluptatibus officia ad quaerat similique. Inventore vero suscipit vel?</p>
+                    <div class="btn">
+                        <button>buy</button>
+                    </div>
+                </div>
+    </div>
+  </div>
+</body>
+</html>
